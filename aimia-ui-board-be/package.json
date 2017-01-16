@@ -1,0 +1,32 @@
+{
+  "name": "pr-monitor-be-app",
+  "version": "0.1.0",
+  "description": "Aimia UI Board BE API/Proxy App",
+  "author": "Tomasz Libich <t.libich@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "*",
+    "dot-env": "*",
+    "express": "*",
+    "fs-extra": "*",
+    "moment": "*",
+    "passport": "^0.3.2",
+    "passport-bitbucket": "^2.0.0",
+    "passport-bitbucket-oauth2": "^0.1.2",
+    "play-sound": "^1.1.1",
+    "promise": "*",
+    "request": "*",
+    "util": "*",
+    "winston": "*"
+  },
+  "scripts": {
+    "start": "node boot"
+  }
+}

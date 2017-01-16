@@ -1,0 +1,16 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+aimia-ui-board-fe/node_modules
+aimia-ui-board-be/node_modules
+
+# testing
+aimia-ui-board-fe/coverage
+
+# production
+aimia-ui-board-fe/build
+
+# misc
+.DS_Store
+aimia-ui-board-be/.env
+aimia-ui-board-fe/npm-debug.log

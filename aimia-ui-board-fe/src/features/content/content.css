@@ -1,0 +1,18 @@
+.content {
+    padding: 10px 0;
+}
+
+.content--tile {
+    margin: 10px auto;
+    max-width: 50%;
+}
+
+.content--tile__title {
+    color: #039be5 !important;
+    text-transform: uppercase;
+}
+
+.content--tile_loader {
+    text-align: center;
+    padding: 20px;
+}
